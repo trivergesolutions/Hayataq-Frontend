@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hayateq</title>
+        <!-- ===============Google fonts=============== -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+        <!-- ===============CSS links=============== -->
+        <link rel="stylesheet" href="assests/css/aos.css">
+        <link rel="stylesheet" href="assests/css/bootstrap-icons.css">
+        <link rel="stylesheet" href="assests/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assests/css/boxicons.min.css">
+        <link rel="stylesheet" href="assests/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assests/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assests/css/style.css">
+    </head>
+    <body>
+        <!-- =============== Header =============== -->
+        <header class="header-area">
+            <!-- Top Blue Bar -->
+            <div class="top-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8"></div>
+                        <div class="col-lg-4">
+                            <ul class="topLinks">
+                                <li> <a href="blogs.html">Blogs</a></li>
+                                <li>
+                                    <div class="dropdown lang-dropdown"
+                                        tabindex="0">
+                                        <button id="dropdown-btn"></button>
+                                        <ul class="dropdown-content"
+                                            id="dropdown-content"></ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Main Navigation Area -->
+            <div class="nav-wrapper">
+                <div class="container">
+                    <div class="d-flex align-items-stretch">
+                        <a href="index.html"
+                            class="logo-box">
+                            <img
+                                src="assests/images/header-logo.svg"
+                                alt="Logo" class="img-fluid">
+                        </a>
+                        <nav
+                            class="main-nav flex-grow-1 d-flex align-items-center">
+                            <ul class="nav w-100 justify-content-end">
+                                <li class="nav-item"><a class="nav-link"
+                                        href="about.html">ABOUT US</a></li>
+                                <li class="nav-item dropdown-mega active">
+                                    <a class="nav-link "
+                                        href="main-product.html">PRODUCTS</a>
+                                    <div class="mega-menu-content shadow-lg">
+                                        <div class="container">
+                                            <div
+                                                class="row g-4 align-items-center">
+                                                <div class="col-md-5">
+                                                    <div
+                                                        class="list-group product-hover-list">
+                                                        <a
+                                                            href="portableonsitemachiningtool.html"
+                                                            type="button"
+                                                            class="list-group-item list-group-item-action active"
+                                                            data-img1="assests/images/Portable-onsite-machining-tools-img1.png"
+                                                            data-img2="assests/images/Portable-onsite-machining-tools-img2.png"
+                                                            data-text1="Bolt Tensioning Or Torquing"
+                                                            data-text2="Bolt Tensioning Or Torquing">
+                                                            Portable Onsite
+                                                            Machining Tools
+                                                        </a>
+                                                        <a href="bolt-torque-tension-tools.html"
+                                                            type="button"
+                                                            class="list-group-item list-group-item-action"
+                                                            data-img1="assests/images/Portable-onsite-machining-tools-img1.png"
+                                                            data-img2="assests/images/Portable-onsite-machining-tools-img1.png"
+                                                            data-text1="abcd"
+                                                            data-text2="Bolt Tensioning Or Torquing">
+                                                            Bolt Torque and
+                                                            Tension Tools
+                                                        </a>
+                                                        <a href="#"
+                                                            type="button"
+                                                            class="list-group-item list-group-item-action"
+                                                            data-img1="assests/images/Portable-onsite-machining-tools-img2.png"
+                                                            data-img2="assests/images/Portable-onsite-machining-tools-img2.png"
+                                                            data-text1="Bolt Tensioning Or Torquing"
+                                                            data-text2="Bolt Tensioning Or Torquing">
+                                                            Flange Alignment &
+                                                            Maintenance Tools
+                                                        </a>
+                                                        <a href="#"
+                                                            type="button"
+                                                            class="list-group-item list-group-item-action"
+                                                            data-img1="assests/images/Portable-onsite-machining-tools-img1.png"
+                                                            data-img2="assests/images/Portable-onsite-machining-tools-img1.png"
+                                                            data-text1="Bolt Tensioning Or Torquing"
+                                                            data-text2="Bolt Tensioning Or Torquing">
+                                                            Pressure Testing
+                                                            Equipment
+                                                        </a>
+                                                        <a href="#"
+                                                            type="button"
+                                                            class="list-group-item list-group-item-action"
+                                                            data-img1="assests/images/Portable-onsite-machining-tools-img2.png"
+                                                            data-img2="assests/images/Portable-onsite-machining-tools-img2.png"
+                                                            data-text1="Bolt Tensioning Or Torquing"
+                                                            data-text2="Bolt Tensioning Or Torquing">
+                                                            Hydraulic Cylinders
+                                                            & Pumps
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div
+                                                                class="img-frame">
+                                                                <img
+                                                                    id="view-img-1"
+                                                                    src="/assests/images/Gemini_Generated_Image_9d0v989d0v989d0v.png"
+                                                                    class="img-fluid rounded-3"
+                                                                    alt="Product">
+                                                                <p
+                                                                    class="content"
+                                                                    id="view-text-1">Bolt
+                                                                    Tensioning
+                                                                    Or
+                                                                    Torquing</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div
+                                                                class="img-frame">
+                                                                <img
+                                                                    id="view-img-2"
+                                                                    src="/assests/images/Gemini_Generated_Image_9d0v989d0v989d0v.png"
+                                                                    class="img-fluid rounded-3"
+                                                                    alt="Product">
+                                                                <p
+                                                                    class="content"
+                                                                    id="view-text-2">Bolt
+                                                                    Tensioning
+                                                                    Or
+                                                                    Torquing</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item"><a class="nav-link"
+                                        href="services.html">SERVICES</a></li>
+                                <li class="nav-item"><a class="nav-link"
+                                        href="downloads.html">DOWNLOADS</a></li>
+                                <li class="nav-item"><a class="nav-link"
+                                        href="contact-us.html">CONTACT
+                                        US</a></li>
+                            </ul>
+                            <div class="search-btn">
+                                <div class="header-search" tabindex="0">
+                                    <input type="text"
+                                        placeholder="Search Something Here..."
+                                        aria-label="Search">
+                                    <button class="search-trigger">
+                                        <i class="bi bi-search"></i>
+                                        <span>Search</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- MOBILE TOGGLE BUTTON -->
+                            <span class="toggle-menu mobile-only">
+                                <img src="assests/images/menu-icon.png"
+                                    alt="menu">
+                            </span>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- MOBILE NAV -->
+            <nav class="mobile-nav">
+                <ul class="mobile-menu">
+
+                    <li>
+                        <a href="about.html" class="menu-toggle">ABOUT US</a>
+                    </li>
+
+                    <li>
+                        <a href="main-product.html"
+                            class="menu-toggle">PRODUCTS</a>
+                        <ul class="submenu">
+                            <li><a
+                                    href="portableonsitemachiningtool.html">Portable
+                                    Onsite Machining
+                                    Tools</a></li>
+                            <li><a href="#">Bolt Torque & Tension Tools</a></li>
+                            <li><a href="#">Flange Alignment & Maintenance
+                                    Tools</a></li>
+                            <li><a href="#">Pressure Testing Equipment</a></li>
+                            <li><a href="#">Hydraulic Cylinders & Pumps</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="services.html" class="menu-toggle">SERVICES</a>
+                    </li>
+
+                    <li>
+                        <a href="downloads.html"
+                            class="menu-toggle">DOWNLOADS</a>
+                    </li>
+
+                    <li>
+                        <a href="contact-us.html" class="menu-toggle">CONTACT
+                            US</a>
+                    </li>
+
+                </ul>
+            </nav>
+            <div class="overlay"></div>
+
+        </header>
+        <!-- =============== Inner Banner =============== -->
+        <section class="inner-banner" id="inner-banner"
+            style="background-image: url(assests/images/about-bg.png);">
+            <div class="container">
+                <div class="inner-content">
+                    <h2 class="heading">Heavy Duty Clamshells</h2>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>Heavy Duty Clamshells</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- =============== Products Details =============== -->
+        <section class="product-details" id="product-details">
+            <div class="container">
+                <div class="row spcl-row">
+                    <div class="col-lg-6">
+                        <div class="product-gallery-container">
+                            <div class="progress-bars">
+                                <div class="bar-item active"><div
+                                        class="fill"></div></div>
+                                <div class="bar-item"><div
+                                        class="fill"></div></div>
+                                <div class="bar-item"><div
+                                        class="fill"></div></div>
+                                <div class="bar-item"><div
+                                        class="fill"></div></div>
+                            </div>
+                            <div class="main-image-box">
+                                <img id="mainImage"
+                                    src="assests/images/product-detail-1.svg"
+                                    alt="Main Product">
+                            </div>
+                            <div class="thumbnail-list">
+                                <div class="thumb active" data-index="0">
+                                    <img
+                                        src="assests/images/product-detail-1.svg"
+                                        alt="thumb1">
+                                </div>
+                                <div class="thumb" data-index="1">
+                                    <img
+                                        src="assests/images/product-detail-1.svg"
+                                        alt="thumb2">
+                                </div>
+                                <div class="thumb" data-index="2">
+                                    <img
+                                        src="assests/images/product-detail-1.svg"
+                                        alt="thumb3">
+                                </div>
+                                <div class="thumb" data-index="3">
+                                    <img
+                                        src="assests/images/product-detail-1.svg"
+                                        alt="thumb4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="detail-right">
+                            <span>DLRHD32</span>
+                            <h2 class="subheading">Heavy Duty Clamshell Pipe
+                                Cutter, 20-32" (508-813 mm) Mounting
+                                Diameter</h2>
+                            <p class="para">The robust design of the portable HD
+                                Heavy Duty Clamshell makes it ideal for large
+                                diameter heavy wall pipe applications. The
+                                portable split frame machine is capable of pipe
+                                cutting, bevelling, facing, ID boring and OD
+                                turning on a wide range of wall thicknesses.</p>
+                            <div class="detail-bottom">
+                                <p>PRICE ON REQUEST</p>
+                            </div>
+                            <form action="#" class="price-from">
+                                <div class="row spcl-row">
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control"
+                                            id="exampleInputName1"
+                                            aria-describedby="emailHelp"
+                                            placeholder="First Name">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control"
+                                            id="exampleInputName2"
+                                            aria-describedby="emailHelp"
+                                            placeholder="Last Name">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="email" class="form-control"
+                                            id="exampleInputEmail"
+                                            aria-describedby="emailHelp"
+                                            placeholder="Email">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="tel" class="form-control"
+                                            id="exampleInputPhone"
+                                            aria-describedby="emailHelp"
+                                            placeholder="Phone Number">
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <textarea
+                                            placeholder="Please describe your project. anything that would help us understand your project better."></textarea>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="btn-wrapper">
+                                            <button class="btn">Enquiry Now <img
+                                                    src="assests/images/enquire.svg"
+                                                    alt="enquire"></button>
+                                            <button class="btn download">
+                                                Download Catalogue
+                                                <img
+                                                    src="assests/images/download-img.svg"
+                                                    alt="download">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="description">
+                    <h5>Description</h5>
+                    <div class="description-bottom">
+                        <p><strong>Model :</strong> RC-50</p>
+                        <p><strong>Series :</strong> RC</p>
+                        <p><strong>Product Lines :</strong> Industrial Tools</p>
+                    </div>
+                    <ul class="description-list">
+                        <li>Hardened alloy steel guide ring eliminates over
+                            travel and provides support to reduce wear from
+                            off-center loads</li>
+                        <li>Designed for use in all positions</li>
+                        <li>Baked enamel finish for increased corrosion
+                            resistance</li>
+                        <li>Collar threads, plunger threads, and base mounting
+                            holes for easy fixturing</li>
+                        <li>High strength alloy steel body is precision machined
+                            to reduce wear and features a baked enamel finish
+                            for durability and corrosion protection</li>
+                        <li>Nickel plating is available on most models</li>
+                        <li>Heavy duty return springs</li>
+                        <li>Plunger wiper reduces contamination, extending
+                            cylinder life</li>
+                        <li>3/8-18NPT coupler and dust cap included on all
+                            models</li>
+                        <li>An Industrial U-cup style seal prevents costly
+                            leaks</li>
+                        <li>Hardened and chromed piston reduces wear and
+                            corrosion</li>
+                        <li>High-strength composite bearing provides support for
+                            off-center loads without damaging the cylinder
+                            walls</li>
+                    </ul>
+                    <h5>Comparison</h5>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Model</th>
+                                    <th>Capacity/Ton</th>
+                                    <th>Stroke/mm</th>
+                                    <th>Cylinder Effective Area/cm2</th>
+                                    <th>Oil Capacity/cm3</th>
+                                    <th>Collapsed Height/mm(A)</th>
+                                    <th>Extended Height/mm(B)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>RCH-120</td>
+                                    <td>13</td>
+                                    <td>8</td>
+                                    <td>18.5</td>
+                                    <td>14</td>
+                                    <td>55</td>
+                                    <td>63</td>
+                                </tr>
+                                <tr>
+                                    <td>RCH-120</td>
+                                    <td>13</td>
+                                    <td>8</td>
+                                    <td>18.5</td>
+                                    <td>14</td>
+                                    <td>55</td>
+                                    <td>63</td>
+                                </tr>
+                                <tr>
+                                    <td>RCH-120</td>
+                                    <td>13</td>
+                                    <td>8</td>
+                                    <td>18.5</td>
+                                    <td>14</td>
+                                    <td>55</td>
+                                    <td>63</td>
+                                </tr>
+                                <tr>
+                                    <td>RCH-120</td>
+                                    <td>13</td>
+                                    <td>8</td>
+                                    <td>18.5</td>
+                                    <td>14</td>
+                                    <td>55</td>
+                                    <td>63</td>
+                                </tr>
+                                <tr>
+                                    <td>RCH-120</td>
+                                    <td>13</td>
+                                    <td>8</td>
+                                    <td>18.5</td>
+                                    <td>14</td>
+                                    <td>55</td>
+                                    <td>63</td>
+                                </tr>
+                                <tr>
+                                    <td>RCH-120</td>
+                                    <td>13</td>
+                                    <td>8</td>
+                                    <td>18.5</td>
+                                    <td>14</td>
+                                    <td>55</td>
+                                    <td>63</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="related-products">
+                        <div class="related-product-top">
+                            <h2 class="subheading">Related Products</h2>
+                            <span class="line"></span>
+                            <a href="main-product.html" class="btn">View all<i
+                                    class="bi bi-arrow-right"></i></a>
+                        </div>
+                        <div class="all-products">
+                            <div class="swiper productSwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="each-product">
+                                            <img
+                                                src="assests/images/product-1.svg"
+                                                alt="product-1">
+                                            <div class="eachproduct-content">
+                                                <a
+                                                    href="portableonsitemachiningtool.html">Portable
+                                                    Onsite Machining Tools</a>
+                                                <a class="nav-link"
+                                                    href="portableonsitemachiningtool.html">View
+                                                    details </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="each-product">
+                                            <img
+                                                src="assests/images/product-2.svg"
+                                                alt="product-2">
+                                            <div class="eachproduct-content">
+                                                <a
+                                                    href="portableonsitemachiningtool.html">Bolt
+                                                    Torque and Tension Tools</a>
+                                                <a class="nav-link"
+                                                    href="portableonsitemachiningtool.html">View
+                                                    details </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="each-product">
+                                            <img
+                                                src="assests/images/product-3.svg"
+                                                alt="product-3">
+                                            <div class="eachproduct-content">
+                                                <a
+                                                    href="portableonsitemachiningtool.html">Flange
+                                                    Alignment and Maintenance
+                                                    Tools</a>
+                                                <a class="nav-link"
+                                                    href="portableonsitemachiningtool.html">View
+                                                    details </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="each-product">
+                                            <img
+                                                src="assests/images/product-1.svg"
+                                                alt="product-1">
+                                            <div class="eachproduct-content">
+                                                <a
+                                                    href="portableonsitemachiningtool.html">Portable
+                                                    Onsite Machining Tools</a>
+                                                <a class="nav-link"
+                                                    href="portableonsitemachiningtool.html">View
+                                                    details </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="each-product">
+                                            <img
+                                                src="assests/images/product-2.svg"
+                                                alt="product-2">
+                                            <div class="eachproduct-content">
+                                                <a
+                                                    href="portableonsitemachiningtool.html">Bolt
+                                                    Torque and Tension Tools</a>
+                                                <a class="nav-link"
+                                                    href="portableonsitemachiningtool.html">View
+                                                    details </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="each-product">
+                                            <img
+                                                src="assests/images/product-3.svg"
+                                                alt="product-3">
+                                            <div class="eachproduct-content">
+                                                <a
+                                                    href="portableonsitemachiningtool.html">Flange
+                                                    Alignment and Maintenance
+                                                    Tools</a>
+                                                <a class="nav-link"
+                                                    href="portableonsitemachiningtool.html">View
+                                                    details </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prev_next_btn">
+                                <div class="prev_btn"><i
+                                        class="bi bi-arrow-left"></i></div>
+                                <div class="next_btn"><i
+                                        class="bi bi-arrow-right"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =============== Footer =============== -->
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="footer-top">
+                    <div class="row spcl-row">
+                        <div class="col-lg-9">
+                            <div class="row spcl-row">
+                                <div class="col-lg-5">
+                                    <div class="footer-left">
+                                        <div class="footer-logo">
+                                            <img
+                                                src="assests/images/footer-logo.svg"
+                                                alt="footer-logo">
+                                        </div>
+                                        <p>Haya TEQ Tools and Equipment has a
+                                            long-standing history in
+                                            manufacturing and
+                                            supplying tools for EPC projects. We
+                                            have
+                                            proudly delivered solutions for
+                                            major
+                                            projects across the United States
+                                            and
+                                            Arabian countries.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="footermenu">
+                                        <h3>Company</h3>
+                                        <ul>
+                                            <li><a href="about.html">About
+                                                    Us</a></li>
+                                            <li><a
+                                                    href="downloads.html">Downloads</a></li>
+                                            <li><a
+                                                    href="contact-us.html">Contact</a></li>
+                                            <li><a href="blogs.html">Blogs</a></li>
+                                            <li><a href="#">Terms &
+                                                    Conditions</a></li>
+                                            <li><a href="#">Privacy
+                                                    Policy</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="footermenu">
+                                        <h3>Products</h3>
+                                        <ul>
+                                            <li><a href="portableonsitemachiningtool.html">Portable Onsite
+                                                    Machining
+                                                    Tools</a></li>
+                                            <li><a href="bolt-torque-tension-tools.html">Bolt Torque and
+                                                    Tension
+                                                    Tools</a></li>
+                                            <li><a href="#">Flange Alignment &
+                                                    Maintenance Tools</a></li>
+                                            <li><a href="#">Pressure Testing
+                                                    Equipment</a></li>
+                                            <li><a href="#">Hydraulic Cylinders
+                                                    &
+                                                    Pumps</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <ul class="contact-footer">
+                                <li>
+                                    <a href="tel:+61410555595"><i
+                                            class="bi bi-telephone-fill"></i>
+                                        +61 410 555 595</a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="mailto:sales@hayateq.com"><i
+                                            class="bi bi-envelope"></i>
+                                        sales@hayateq.com</a>
+                                </li>
+                            </ul>
+                            <div class="footersocial">
+                                <h3>Follow HAYA TEQ</h3>
+                                <ul>
+                                    <li><a href="#"><svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="16" height="16"
+                                                fill="currentColor"
+                                                class="bi bi-facebook"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                                            </svg></a></li>
+                                    <li><a href="#"><svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="16" height="16"
+                                                fill="currentColor"
+                                                class="bi bi-instagram"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                            </svg></a></li>
+                                    <li><a href="#"><svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="16" height="16"
+                                                fill="currentColor"
+                                                class="bi bi-linkedin"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                            </svg></a></li>
+                                    <li><a href="#"><svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="16" height="16"
+                                                fill="currentColor"
+                                                class="bi bi-twitter-x"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                                            </svg></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>Copyright © <span id="year"></span> All rights
+                        reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- ===============JS links=============== -->
+        <script src="assests/js/jquery.min.js"></script>
+        <script src="assests/js/bootstrap.bundle.min.js"></script>
+        <script src="assests/js/bootstrap.min.js"></script>
+        <script src="assests/js/swiper-bundle.min.js"></script>
+        <script src="assests/js/swiper-bundle.min.js"></script>
+        <script src="assests/js/aos.js"></script>
+        <script src="assests/js/edit-js.js"></script>
+
+    </body>
+</html>
