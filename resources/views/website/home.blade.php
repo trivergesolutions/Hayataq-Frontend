@@ -27,10 +27,9 @@
         </div>
         <div class="container hero-grid hero-grid-clean">
             <div class="hero-main">
-                <p class="hero-designed">Designed in Australia</p>
+                <p class="hero-designed">Designed in<br>Australia</p>
                 <div class="hero-actions">
-                    <a class="btn btn-primary" href="#products">Explore Product Range</a>
-                    <a class="btn btn-ghost" href="#contact">Speak to a Specialist</a>
+                    <a class="btn btn-hero" href="#products">Explore Product Range <span aria-hidden="true">→</span></a>
                 </div>
             </div>
         </div>
