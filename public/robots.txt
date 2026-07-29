@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin
+Disallow: /login
+Disallow: /register
+Disallow: /password
+
+Sitemap: https://hayateq.com/sitemap.xml
