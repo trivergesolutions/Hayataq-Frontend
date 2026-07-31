@@ -1,5 +1,5 @@
 <!-- =============== Footer (light section style, black text) =============== -->
-<footer class="footer">
+<footer class="footer bg-white">
     <div class="container">
         <div class="footer-grid">
             <div>

@@ -259,7 +259,7 @@
     .hero-main{max-width:920px}
     .hero-designed{
       font-family:var(--font-family-sans-serif);
-      font-size:clamp(1.55rem,3.2vw,2.35rem);
+      font-size:clamp(2.55rem,4.2vw,3.35rem);
       font-weight:600;
       line-height:1.2;
       letter-spacing:.08em;
@@ -1062,6 +1062,47 @@
       font-size:13px !important;
       min-height:52px;
     }
+    /* Theme color for text */
+    .white-text{
+      color: #fff !important;
+    }
+    .dark-text{
+      color: #06233e !important;
+    }
+    .bg-white{
+      background: #fff !important;
+    }
+    .bg-white ul li{
+      color: #06233e !important;
+    }
+    .btn-dark-text-white{
+       background: #06233e !important;
+       color: #fff !important;
+    }
+    .btn-white-text-dark{
+       background: #fff !important;
+       color: #06233e !important;
+    }
+    .orange-text{
+      color:#f49a2a !important;
+    }
+    .btn-hero {
+    opacity: 0;
+    transform: translateY(25px);
+    animation: heroButtonFadeUp .8s ease-out .5s forwards;
+}
+
+@keyframes heroButtonFadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.ml-0{margin-left:0px !important;}
     </style>
     @stack('styles')
 </head>

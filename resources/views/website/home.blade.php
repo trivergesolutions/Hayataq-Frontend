@@ -27,7 +27,7 @@
         </div>
         <div class="container hero-grid hero-grid-clean">
             <div class="hero-main">
-                <p class="hero-designed">Designed in<br>Australia</p>
+                <p class="hero-designed white-text">Designed in<br>Australia</p>
                 <div class="hero-actions">
                     <a class="btn btn-hero" href="#products">Explore Product Range <span aria-hidden="true">→</span></a>
                 </div>
@@ -53,7 +53,7 @@
          DELETE: Visit website button; old H2 + old body copy (struck through in design)
          ADD: "Equipment engineered for the field" + five-line body + card copy notes
     --}}
-    <section class="section soft" id="products">
+    <section class="section" id="products">
         <div class="container">
             <div class="section-head section-head-stack">
                 <div class="section-copy">
@@ -161,68 +161,62 @@
     </section>
 
     {{-- ========== FEATURED PRODUCTS (after Product Categories — from home_page_change.png) ========== --}}
-    <section class="section" id="featured">
+    <section class="section dark" id="featured">
         <div class="container">
             <div class="section-head section-head-stack">
                 <div class="section-copy">
-                    <div class="kicker">Featured Products</div>
+                    <div class="kicker orange-text">Featured Products</div>
                 </div>
             </div>
             <div class="featured-feature-grid">
-                <article class="featured-feature-card">
-                    <h3>Onsite Pipe Machining</h3>
-                    <p>Split-frame, ID-mounted and narrow-body systems for cutting, beveling, facing and weld preparation.</p>
+                <article class="featured-feature-card bg-white">
+                    <h3 class="dark-text">Onsite Pipe Machining</h3>
+                    <p class="dark-text">Split-frame, ID-mounted and narrow-body systems for cutting, beveling, facing and weld preparation.</p>
                     <ul>
                         <li>In-line machining</li>
                         <li>Restricted-access applications</li>
                         <li>Cold-cut weld preparation</li>
                     </ul>
-                    <a class="btn featured-feature-btn" href="{{ route('mainProducts') }}">Explore Machining</a>
+                    <a class="btn featured-feature-btn btn-dark-text-white" href="{{ route('mainProducts') }}">Explore Machining</a>
                 </article>
-                <article class="featured-feature-card">
-                    <h3>Controlled Bolting</h3>
-                    <p>Hydraulic torque tools, pumps, manual torque wrenches and accessories for repeatable fastening control.</p>
+                <article class="featured-feature-card bg-white">
+                    <h3 class="dark-text">Controlled Bolting</h3>
+                    <p class="dark-text">Hydraulic torque tools, pumps, manual torque wrenches and accessories for repeatable fastening control.</p>
                     <ul>
                         <li>Square drive, low profile &amp; narrow profile</li>
                         <li>Pneumatic &amp; electric pumps</li>
                         <li>Calibration-oriented selection</li>
                     </ul>
-                    <a class="btn featured-feature-btn" href="{{ route('mainProducts') }}">Explore Bolting</a>
+                    <a class="btn featured-feature-btn btn-dark-text-white" href="{{ route('mainProducts') }}">Explore Bolting</a>
                 </article>
-                <article class="featured-feature-card">
-                    <h3>Flange Maintenance</h3>
-                    <p>Flange spreaders, alignment tools and facing solutions designed for shutdowns and planned maintenance work.</p>
+                <article class="featured-feature-card bg-white">
+                    <h3 class="dark-text">Flange Maintenance</h3>
+                    <p class="dark-text">Flange spreaders, alignment tools and facing solutions designed for shutdowns and planned maintenance work.</p>
                     <ul>
                         <li>Safe joint separation</li>
                         <li>Alignment correction</li>
                         <li>Facing &amp; sealing surface restoration</li>
                     </ul>
-                    <a class="btn featured-feature-btn" href="{{ route('mainProducts') }}">Explore Flange Tools</a>
+                    <a class="btn featured-feature-btn btn-dark-text-white" href="{{ route('mainProducts') }}">Explore Flange Tools</a>
                 </article>
-                <article class="featured-feature-card">
-                    <h3>Pressure Testing &amp; Hydraulic Power</h3>
-                    <p>Hydrotest pumps, hydraulic cylinders and related equipment for testing, lifting, pressing and support operations.</p>
+                <article class="featured-feature-card bg-white">
+                    <h3 class="dark-text">Pressure Testing &amp; Hydraulic Power</h3>
+                    <p class="dark-text">Hydrotest pumps, hydraulic cylinders and related equipment for testing, lifting, pressing and support operations.</p>
                     <ul>
                         <li>Single &amp; double acting hydrotest pumps</li>
                         <li>Hydraulic cylinders &amp; pumps</li>
                         <li>Workshop and field use</li>
                     </ul>
-                    <a class="btn featured-feature-btn" href="{{ route('mainProducts') }}">Explore Test Systems</a>
+                    <a class="btn featured-feature-btn btn-dark-text-white" href="{{ route('mainProducts') }}">Explore Test Systems</a>
                 </article>
             </div>
         </div>
     </section>
 
     {{-- ========== SOLUTIONS (kept — annotation: keep this number on 01–04) ========== --}}
-    <section class="section blue-soft" id="solutions">
-        <div class="container">
-            <div class="section-head">
-                <div class="section-copy">
-                    <div class="kicker">How HAYA TEQ Supports Projects</div>
-                    <h2>More than product supply.</h2>
-                    <p>The strongest industrial-tool partner helps customers define the application, select the correct configuration and maintain the equipment throughout its service life.</p>
-                </div>
-            </div>
+    <section class="section" id="solutions">
+        <div class="container-fluid ml-0">
+            
             <div class="solution-layout">
                 <div class="solution-image">
                     <img alt="Machined industrial component after onsite machining" src="{{ asset('website/assests/images/img_15.webp') }}"/>
@@ -231,11 +225,21 @@
                         <span>Portable machining and maintenance solutions reduce unnecessary component movement and support planned shutdown execution.</span>
                     </div>
                 </div>
-                <div class="solution-cards">
-                    <article class="solution-card"><i>01</i><h3>Application Review</h3><p>Review dimensions, material, operating conditions, access and the required technical outcome.</p></article>
-                    <article class="solution-card"><i>02</i><h3>Product Selection</h3><p>Match machine range, torque capacity, pressure, force, connection and utility requirements.</p></article>
-                    <article class="solution-card"><i>03</i><h3>Documentation</h3><p>Provide datasheets, drawings, manuals, calibration records and controlled technical information.</p></article>
-                    <article class="solution-card"><i>04</i><h3>After-Sales Support</h3><p>Support spare parts, tooling, accessories, maintenance, calibration and product service requirements.</p></article>
+                <div class="container">
+                    
+                    <div class="section-head">
+                        <div class="section-copy">
+                            <div class="kicker">How HAYA TEQ Supports Projects</div>
+                            <h2>More than product supply.</h2>
+                            <p>The strongest industrial-tool partner helps customers define the application, select the correct configuration and maintain the equipment throughout its service life.</p>
+                        </div>
+                    </div>
+                    <div class="solution-cards">
+                        <article class="solution-card"><i>01</i><h3>Application Review</h3><p>Review dimensions, material, operating conditions, access and the required technical outcome.</p></article>
+                        <article class="solution-card"><i>02</i><h3>Product Selection</h3><p>Match machine range, torque capacity, pressure, force, connection and utility requirements.</p></article>
+                        <article class="solution-card"><i>03</i><h3>Documentation</h3><p>Provide datasheets, drawings, manuals, calibration records and controlled technical information.</p></article>
+                        <article class="solution-card"><i>04</i><h3>After-Sales Support</h3><p>Support spare parts, tooling, accessories, maintenance, calibration and product service requirements.</p></article>
+                    </div>
                 </div>
             </div>
         </div>
@@ -246,7 +250,7 @@
         <div class="container">
             <div class="section-head section-head-stack industries-head">
                 <div class="section-copy">
-                    <div class="kicker industries-kicker">Industries Served</div>
+                    <div class="kicker industries-kicker orange-text">Industries Served</div>
                     <h2 class="industries-title">Tools for production-critical and shutdown-critical work.</h2>
                     <p class="industries-lead">HAYA TEQ equipment supports industrial teams working on pipelines, process plants, rotating equipment, heavy machinery, marine systems and engineered structures.</p>
                 </div>
@@ -314,23 +318,23 @@
     </section>
 
     {{-- ========== WHY HAYA TEQ (kept) ========== --}}
-    <section class="section soft" id="why">
-        <div class="container why-grid">
-            <div class="why-image">
-                <img alt="HAYA TEQ industrial applications" src="{{ asset('website/assests/images/Applications-2.webp') }}"/>
-            </div>
-            <div class="why-copy">
+    <section class="section" id="why">
+        <div class="container-fluid why-grid">
+            <div class="container why-copy">
                 <div class="kicker">Why HAYA TEQ?</div>
                 <h2>Industrial products presented with the detail professional buyers expect.</h2>
                 <p>HAYA TEQ combines a broad tool range with practical product-selection support. The goal is to make it easier for customers to identify the right system, understand the important specifications and receive reliable assistance before and after purchase.</p>
                 <div class="why-points">
-                    <div class="why-point"><b>✓</b><div><strong>Technical product knowledge</strong><span>Selection support based on the actual application.</span></div></div>
-                    <div class="why-point"><b>✓</b><div><strong>Clear product documentation</strong><span>Specifications, drawings, manuals and support information.</span></div></div>
-                    <div class="why-point"><b>✓</b><div><strong>Industrial product range</strong><span>Machining, bolting, flange work, testing and maintenance.</span></div></div>
-                    <div class="why-point"><b>✓</b><div><strong>Responsive commercial support</strong><span>Quotation assistance and product-availability guidance.</span></div></div>
-                    <div class="why-point"><b>✓</b><div><strong>After-sales continuity</strong><span>Accessories, spares, calibration and service support.</span></div></div>
-                    <div class="why-point"><b>✓</b><div><strong>Application-specific enquiries</strong><span>Forms capture the information required for better selection.</span></div></div>
+                    <div class="why-point solution-card"><i>01</i><div><strong>Technical product knowledge</strong><span>Selection support based on the actual application.</span></div></div>
+                    <div class="why-point solution-card"><i>02</i><div><strong>Clear product documentation</strong><span>Specifications, drawings, manuals and support information.</span></div></div>
+                    <div class="why-point solution-card"><i>03</i><div><strong>Industrial product range</strong><span>Machining, bolting, flange work, testing and maintenance.</span></div></div>
+                    <div class="why-point solution-card"><i>04</i><div><strong>Responsive commercial support</strong><span>Quotation assistance and product-availability guidance.</span></div></div>
+                    <div class="why-point solution-card"><i>05</i><div><strong>After-sales continuity</strong><span>Accessories, spares, calibration and service support.</span></div></div>
+                    <div class="why-point solution-card"><i>06</i><div><strong>Application-specific enquiries</strong><span>Forms capture the information required for better selection.</span></div></div>
                 </div>
+            </div>            
+            <div class="why-image">
+                <img alt="HAYA TEQ industrial applications" src="{{ asset('website/assests/images/Applications-2.webp') }}"/>
             </div>
         </div>
     </section>
@@ -416,7 +420,7 @@
             <div class="section-head section-head-stack contact-head">
                 <div class="section-copy">
                     <div class="kicker contact-kicker">Technical Enquiry</div>
-                    <div class="contact-get-started">Get started</div>
+                    <div class="contact-get-started white-text">Get started</div>
                     <h2 class="contact-title">Tell us your application and we’ll guide you to the right product.</h2>
                     <p class="contact-lead">For the best results, share sizes, torque, pressure, materials or site conditions. This supports quotation requests, sales engagement and deeper buyer qualification.</p>
                 </div>
@@ -472,7 +476,7 @@
                     </div>
                 </div>
                 <p id="enquiryFormMessage" class="enquiry-form-message" style="display:none;margin:12px 0 0;font-size:13px;font-weight:600;"></p>
-                <button class="btn btn-primary" type="submit" id="enquirySubmitBtn">Send Enquiry</button>
+                <button class="btn btn-primary btn-white-text-dark" type="submit" id="enquirySubmitBtn">Send Enquiry</button>
             </form>
             </div>
         </div>
